@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.5s;
+}
+
+.navbar-expand .navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-expand .navbar-nav .nav-link:hover {
+  color: skyblue;
+}
+
+section {
+  padding: 100px;
+}
+
+section img {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
+section h1 {
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: skyblue;
+}
+
+section p {
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+  margin: 15px 0;
+  text-align: justify;
+}
+
+.form .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form h1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+  color: black;
+}
+
+form {
+  width: 600px;
+  height: 340px;
+  box-shadow: 0px 0px 3px rgb(84, 187, 228);
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+}
+
+form input,
+form textarea {
+  color: black;
+  padding: 5px;
+  padding-left: 20px;
+  width: 50%;
+  margin: 25px 0;
+  border: 1px solid skyblue;
+  outline: none;
+  background-color: transparent;
+}
+
+form .mail {
+  margin-left: 70px;
+}
+
+form .pass {
+  margin-left: 36px;
+}
+
+form .submit {
+  padding: 0;
+  display: block;
+  text-align: center;
+  margin: 70px auto 0;
+  width: 120px;
+  padding: 8px;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+form .submit:hover {
+  background-color: skyblue;
+  color: white;
+}
